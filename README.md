@@ -16,3 +16,6 @@ Connect to postgres database:
 ```bash
 docker exec -it $(docker compose ps -q  db) psql -U user -d mydatabase
 ```
+
+Example Data Returned
+![alt text](image.png)
