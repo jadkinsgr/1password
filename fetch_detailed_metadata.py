@@ -6,6 +6,7 @@ from db_utils import connect_to_db
 
 BASE_URL = "https://openlibrary.org"
 
+#Adding the kesy mentioned in example request (step b)
 BOOK_KEY = "/books/OL50210272M"
 WORK_KEY = "/works/OL37247684W"
 
