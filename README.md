@@ -19,3 +19,6 @@ docker exec -it $(docker compose ps -q  db) psql -U user -d mydatabase
 
 Example Data Returned
 ![alt text](image.png)
+
+Example Docker Desktop container created:
+![alt text](image-1.png)
