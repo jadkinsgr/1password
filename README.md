@@ -1,6 +1,6 @@
 # 🚀 Data Engineering Take Home Assignment
 
-Welcome aboard the data rocket! This guide walks you through spinning up the app, exploring the database, and running queries—all smooth and simple.
+Welcome aboard the data rocket (aka the 1password take home assignment)! This guide walks you through spinning up the app, exploring the database, and running queries—all smooth and simple.
 
 ---
 
