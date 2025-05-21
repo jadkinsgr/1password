@@ -4,7 +4,7 @@
 
 Run the entire application:
 ```bash
-docker compose up --build
+docker compose up
 ```
 
 Run the python application only:
@@ -17,6 +17,23 @@ Connect to postgres database:
 docker exec -it $(docker compose ps -q  db) psql -U user -d mydatabase
 ```
 
+Example command to list tables: 
+```bash
+\d
+```
+Example commands for pSQL :
+```bash
+-- Count rows in recent_changes
+SELECT COUNT(*) FROM recent_changes;
+
+-- Count rows in books
+SELECT COUNT(*) FROM books;
+```
+
+How to spin down the container (to rebuild from scratch):
+```bash
+docker-compose down
+```
 Example Data Returned
 ![alt text](image.png)
 
